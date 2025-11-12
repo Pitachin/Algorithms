@@ -40,4 +40,4 @@ def dijkstra(graph, s):
     return dist
 
 graph = read_graph("graph.txt")
-print dijkstra(graph, 1)
+print(dijkstra(graph, 1))
